@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "5293 Final Project"
+author: "Jinghan Huang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
