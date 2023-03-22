@@ -7,3 +7,7 @@ site: bookdown::bookdown_site
 
 # Proposal
 
+The goal for this project is to use machine learning to predict the stock of Google. The data set is located at https://finance.yahoo.com/quote/GOOG/history?period1=1092873600&period2=1679356800&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true 
+
+I will use three models to train and predict the data, which are linear & glm model, Auto Regessive Integrated Moving Average, and Long Short Term Memory Network. 
+
