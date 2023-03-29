@@ -23,7 +23,7 @@
 <meta name="author" content="Jinghan Huang" />
 
 
-<meta name="date" content="2023-03-21" />
+<meta name="date" content="2023-03-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -72,7 +72,14 @@
 <li><a href="./">SHORT TITLE HERE</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Proposal</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Proposal for Machine Learning-based Stock Prediction of Google</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#introduction"><i class="fa fa-check"></i><b>1.1</b> Introduction:</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#objectives"><i class="fa fa-check"></i><b>1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#methodology"><i class="fa fa-check"></i><b>1.3</b> Methodology:</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#expected-outcomes"><i class="fa fa-check"></i><b>1.4</b> Expected Outcomes:</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#conclusion"><i class="fa fa-check"></i><b>1.5</b> Conclusion:</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="model-1.html"><a href="model-1.html"><i class="fa fa-check"></i><b>2</b> [Model 1]</a></li>
 <li class="chapter" data-level="3" data-path="model-2.html"><a href="model-2.html"><i class="fa fa-check"></i><b>3</b> [Model 2]</a></li>
 <li class="chapter" data-level="4" data-path="model-3.html"><a href="model-3.html"><i class="fa fa-check"></i><b>4</b> [Model 3]</a></li>
@@ -99,13 +106,52 @@
 <div id="header">
 <h1 class="title">5293 Final Project</h1>
 <p class="author"><em>Jinghan Huang</em></p>
-<p class="date"><em>2023-03-21</em></p>
+<p class="date"><em>2023-03-28</em></p>
 </div>
-<div id="proposal" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Proposal<a href="index.html#proposal" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>The goal for this project is to use machine learning to predict the stock of Google. The data set is located at <a href="https://finance.yahoo.com/quote/GOOG/history?period1=1092873600&amp;period2=1679356800&amp;interval=1wk&amp;filter=history&amp;frequency=1wk&amp;includeAdjustedClose=true" class="uri">https://finance.yahoo.com/quote/GOOG/history?period1=1092873600&amp;period2=1679356800&amp;interval=1wk&amp;filter=history&amp;frequency=1wk&amp;includeAdjustedClose=true</a></p>
-<p>I will use three models to train and predict the data, which are linear &amp; glm model, Auto Regessive Integrated Moving Average, and Long Short Term Memory Network.</p>
+<div id="proposal-for-machine-learning-based-stock-prediction-of-google" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Proposal for Machine Learning-based Stock Prediction of Google<a href="index.html#proposal-for-machine-learning-based-stock-prediction-of-google" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Introduction:<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This project aims to develop a machine learning-based approach for predicting Google’s stock price. The prediction model will utilize historical data and employ three different training and prediction models. Three models will be used: Linear &amp; GLM, Auto Regressive Integrated Moving Average, and Long Short Term Memory Network. Data will be sourced from Yahoo: <a href="https://finance.yahoo.com/quote/GOOG/history?period1=1092873600&amp;period2=1679356800&amp;interval=1wk&amp;filter=history&amp;frequency=1wk&amp;includeAdjustedClose=true" class="uri">https://finance.yahoo.com/quote/GOOG/history?period1=1092873600&amp;period2=1679356800&amp;interval=1wk&amp;filter=history&amp;frequency=1wk&amp;includeAdjustedClose=true</a></p>
+</div>
+<div id="objectives" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Objectives:<a href="index.html#objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Our primary goal is to develop a model that is accurate and reliable for predicting Google’s stock price. To achieve this objective, the following sub-objectives will be pursued:</p>
+<ol style="list-style-type: decimal">
+<li><p>To collect and preprocess the historical data from Yahoo Finance.</p></li>
+<li><p>To implement and train the three models mentioned above on the preprocessed data.</p></li>
+<li><p>To evaluate the performance of each model using various performance metrics such as Mean Squared Error, Root Mean Squared Error, and R-Squared.</p></li>
+<li><p>To select the most suitable model based on the evaluation metrics and deploy it for the final prediction of the stock of Google.</p></li>
+</ol>
+</div>
+<div id="methodology" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Methodology:<a href="index.html#methodology" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The project will follow the following methodology:</p>
+<ol style="list-style-type: decimal">
+<li><p>Data Collection and Preprocessing</p></li>
+<li><p>Model Implementation and Training</p></li>
+<li><p>Model Evaluation</p></li>
+<li><p>Model Deployment and Final Prediction</p></li>
+</ol>
+</div>
+<div id="expected-outcomes" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Expected Outcomes:<a href="index.html#expected-outcomes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following outcomes are expected from the project:</p>
+<ol style="list-style-type: decimal">
+<li><p>A machine learning-based approach to predict the stock of Google.</p></li>
+<li><p>A comparison of the performance of the Linear &amp; GLM model, Auto Regressive Integrated Moving Average, and Long Short Term Memory Network.</p></li>
+<li><p>The identification of the best-performing model for the prediction of the stock of Google.</p></li>
+<li><p>An accurate prediction of the stock of Google for the next week.</p></li>
+</ol>
+</div>
+<div id="conclusion" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Conclusion:<a href="index.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In conclusion, the proposed project aims to develop a machine learning-based approach to predict the stock of Google using three different models: Linear &amp; GLM model, Auto Regressive Integrated Moving Average, and Long Short Term Memory Network. The project will follow a methodology that involves data collection and preprocessing, model implementation and training, model evaluation, and model deployment and final prediction. The expected outcomes include an accurate prediction of the stock of Google for the next week and the identification of the best-performing model for the prediction of the stock of Google.</p>
+<p>ignore this:
+bookdown::render_book(“index.Rmd”)
+browseURL(“docs/index.html”)</p>
 
+</div>
 </div>
             </section>
 

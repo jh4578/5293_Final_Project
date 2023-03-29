@@ -1,4 +1,9 @@
-proposal
+proposal-for-machine-learning-based-stock-prediction-of-google
+introduction
+objectives
+methodology
+expected-outcomes
+conclusion
 model-1
 model-2
 model-3
